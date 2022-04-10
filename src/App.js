@@ -1,10 +1,11 @@
 import React from "react";
-import Profile from "./component/profile/Profile ";
+import Profile from "./component/Profile";
+import ReactDOM from "react-dom";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Profile fullName="Kelechi Anozia" profile="I am a Web Designer" />
+      <Profile />
     </div>
   );
 }
